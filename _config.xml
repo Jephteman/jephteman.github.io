@@ -1,10 +1,16 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
+---
+version: 4.2.2
+name: Blog de Jephte
+description: Ceci est mon blog
+url: https://jephteman.github.io/
+repository: https://github.com/Jephteman/jephteman.github.io/
+timezone: America/Los_Angeles
+twitter:
+  username: mr_me101
+logo: "/img/logo-2x.png"
+future: true
 kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: plaintext
+theme:Hacker
+- readme.md
