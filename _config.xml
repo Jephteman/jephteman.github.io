@@ -1,0 +1,17 @@
+---
+version: 1.0
+title : Blog de Jephte
+name: Blog de Jephte
+description: Ceci est mon blog
+url: https://jephteman.github.io/
+repository: https://github.com/Jephteman/jephteman.github.io/
+timezone: America/Los_Angeles
+twitter:
+  username: mr_me101
+logo: "/img/logo-2x.png"
+future: true
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: plaintext
+theme:Hacker
+- readme.md
